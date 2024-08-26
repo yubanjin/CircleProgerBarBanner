@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="CircleProgressBar">
+     <!--  分割点的数量，比如一个时钟有60个刻度，那么就是60个分割点  -->
+    <attr name="line_count" format="integer|reference"/>
+    <!-- 分割点的宽度，比如分割点宽度是3px，那么就是3px的宽度  -->
+    <attr name="line_width" format="dimension|reference"/>
+    <!--  进度条开始的颜色  -->
+    <attr name="progress_start_color" format="color|reference"/>
+    <!--  进度条开始的结束的颜色  -->
+    <attr name="progress_end_color" format="color|reference"/>
+    <!--   中间文本的颜色 -->
+    <attr name="progress_text_color" format="color|reference"/>
+    <!--   中间文本的字体大小 -->
+    <attr name="progress_text_size" format="dimension|reference"/>
+    <!--   进度条边框的宽度 -->
+    <attr name="progress_stroke_width" format="dimension|reference"/>
+    <!--  进度条默认的背景颜色  -->
+    <attr name="progress_background_color" format="color|reference"/>
+    <!--    进度条开始的角度-->
+    <attr name="progress_start_degree" format="integer|reference"/>
+    <attr name="drawBackgroundOutsideProgress" format="boolean|reference"/>
+
+    <!--  模糊的半径宽度-->
+    <attr name="progress_blur_radius" format="dimension|reference"/>
+    <attr name="progress_blur_style">
+      <enum name="normal" value="0"/>
+      <enum name="solid" value="1"/>
+      <enum name="outer" value="2"/>
+      <enum name="inner" value="3"/>
+    </attr>
+
+    <attr name="progress_style">
+      <!--      虚线有间隔-->
+      <enum name="line" value="0"/>
+      <!--      实心全部填充-->
+      <enum name="solid" value="1"/>
+      <!--      实心只有线条宽度-->
+      <enum name="solid_line" value="2"/>
+    </attr>
+
+    <attr name="progress_shader">
+     <!--      处理透明度渐变-->
+      <enum name="linear" value="0"/>
+      <enum name="radial" value="1"/>
+      <enum name="sweep" value="2"/>
+    </attr>
+
+    <attr name="progress_stroke_cap">
+      <enum name="butt" value="0"/>
+      <enum name="round" value="1"/>
+      <enum name="square" value="2"/>
+    </attr>
+
+  </declare-styleable>
+</resources>
