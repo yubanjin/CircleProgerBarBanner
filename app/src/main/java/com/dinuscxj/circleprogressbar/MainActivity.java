@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.dinuscxj.progressbar.CircleProgressBar;
-import com.jihuoniao.sdkviewpage2.SdkEmpty;
 
 import androidx.appcompat.app.AppCompatActivity;
 
