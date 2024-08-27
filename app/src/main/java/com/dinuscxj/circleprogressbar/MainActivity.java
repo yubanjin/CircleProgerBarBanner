@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
         tv_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SdkEmpty.class);
-                startActivity(intent);
+//                Intent intent = new Intent(MainActivity.this, SdkEmpty.class);
+//                startActivity(intent);
             }
         });
     }
